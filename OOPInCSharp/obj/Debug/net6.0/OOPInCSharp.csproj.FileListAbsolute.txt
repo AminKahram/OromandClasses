@@ -1,0 +1,14 @@
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\bin\Debug\net6.0\OOPInCSharp.exe
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\bin\Debug\net6.0\OOPInCSharp.deps.json
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\bin\Debug\net6.0\OOPInCSharp.runtimeconfig.json
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\bin\Debug\net6.0\OOPInCSharp.dll
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\bin\Debug\net6.0\OOPInCSharp.pdb
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.AssemblyInfoInputs.cache
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.AssemblyInfo.cs
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.csproj.CoreCompileInputs.cache
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.dll
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\refint\OOPInCSharp.dll
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.pdb
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\OOPInCSharp.genruntimeconfig.cache
+D:\OromandT\2.1\OromandClasses\OOPInCSharp\obj\Debug\net6.0\ref\OOPInCSharp.dll
