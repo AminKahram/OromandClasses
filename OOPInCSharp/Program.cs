@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using OOPInCSharp.Inheritance;
 using OOPInCSharp.VirtualMethods;
+using System.Collections.Generic;
 
 //Console.WriteLine("Hello, World!");
 
@@ -13,21 +14,33 @@ using OOPInCSharp.VirtualMethods;
 //Console.WriteLine(firstChild.GetClassName());
 //Console.WriteLine(firstChild.GetChildClassName());
 
-Animal animal = new();
-Console.WriteLine($"Animal Voice Is :");
-animal.Voice();
+//Animal animal = new();
+//Console.WriteLine($"Animal Voice Is :");
+//animal.Voice();
 
 
-Dog dog = new();
-Console.WriteLine($"Animal Voice Is :");
-dog.Voice();
+//Dog dog = new();
+//Console.WriteLine($"Animal Voice Is :");
+//dog.Voice();
 
 
-Cat cat = new();
-Console.WriteLine($"Animal Voice Is :");
-cat.Voice();
+//Cat cat = new();
+//Console.WriteLine($"Animal Voice Is :");
+//cat.Voice();
 
 
-Cow cow = new();
-Console.WriteLine($"Animal Voice Is :");
-cow.Voice();
+//Cow cow = new();
+//Console.WriteLine($"Animal Voice Is :");
+//cow.Voice();
+List<OOPInCSharp.Abstract.Animal> animals = new List<OOPInCSharp.Abstract.Animal>();
+OOPInCSharp.Abstract.Animal cat = new OOPInCSharp.Abstract.Cat();
+OOPInCSharp.Abstract.Animal dog = new OOPInCSharp.Abstract.Dog();
+OOPInCSharp.Abstract.Animal cow = new OOPInCSharp.Abstract.Cow();
+animals.Add(cat);
+animals.Add(dog);   
+animals.Add(cow);
+
+foreach (var animal in animals)
+{
+    animal.Feed();
+}
