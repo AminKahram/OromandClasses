@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using OOPInCSharp.Constroctors;
+using OOPInCSharp.Implicit_vs_Explicit_Interface;
 using OOPInCSharp.Inheritance;
 using OOPInCSharp.PredefinedInterfaces;
 using OOPInCSharp.VirtualMethods;
@@ -54,3 +55,18 @@ using(TestDisposable disposable = new())
 {
 
 }
+
+TestImplicitIntefaceImplemnet testImplicitIntefaceImplemnet = new();
+testImplicitIntefaceImplemnet.Test();
+testImplicitIntefaceImplemnet.Temp();
+
+TestExplicitIntefaceImplemnet testExplicitIntefaceImplemnet = new();
+testExplicitIntefaceImplemnet.Test();
+
+ITestImplicitInteface testImplicitInteface = testExplicitIntefaceImplemnet;
+
+testImplicitInteface.Temp();
+testImplicitInteface.Test();
+
+ITestImplicitInteface2 testImplicitInteface2 = testExplicitIntefaceImplemnet;
+testImplicitInteface2.Temp();
