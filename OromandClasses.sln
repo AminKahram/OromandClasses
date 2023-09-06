@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpTypes", "CSharpTypes\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class08", "Class08", "{F83A7B34-C231-4542-89E5-857A1A4A6F9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInCSharp", "OOPInCSharp\OOPInCSharp.csproj", "{53FCA0F5-807A-4508-8C8D-BB68CF7195B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPInCSharp", "OOPInCSharp\OOPInCSharp.csproj", "{53FCA0F5-807A-4508-8C8D-BB68CF7195B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInCSharp.AccessModifier", "OOPInCSharp.AccessModifier\OOPInCSharp.AccessModifier.csproj", "{D1933346-8270-41AF-B682-1E2CD6364268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{53FCA0F5-807A-4508-8C8D-BB68CF7195B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53FCA0F5-807A-4508-8C8D-BB68CF7195B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53FCA0F5-807A-4508-8C8D-BB68CF7195B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1933346-8270-41AF-B682-1E2CD6364268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1933346-8270-41AF-B682-1E2CD6364268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1933346-8270-41AF-B682-1E2CD6364268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1933346-8270-41AF-B682-1E2CD6364268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{64109454-86FE-486A-8CAE-9009D15EBBAF} = {B25DD829-509F-4BCA-8C26-EBAB1CE47AE2}
 		{53FCA0F5-807A-4508-8C8D-BB68CF7195B6} = {F83A7B34-C231-4542-89E5-857A1A4A6F9B}
+		{D1933346-8270-41AF-B682-1E2CD6364268} = {F83A7B34-C231-4542-89E5-857A1A4A6F9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {620FE4FB-A3E7-4C2F-9D2F-00461F9AB315}
