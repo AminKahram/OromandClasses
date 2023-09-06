@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using OOPInCSharp.Constroctors;
 using OOPInCSharp.Inheritance;
+using OOPInCSharp.PredefinedInterfaces;
 using OOPInCSharp.VirtualMethods;
 using System.Collections.Generic;
 
@@ -48,3 +49,8 @@ using System.Collections.Generic;
 
 Mobile mobile = new("Iphone");
 Mobile mobile1 = new();
+
+using(TestDisposable disposable = new())
+{
+
+}
