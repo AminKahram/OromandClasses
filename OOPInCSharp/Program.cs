@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using OOPInCSharp.Constroctors;
 using OOPInCSharp.Inheritance;
 using OOPInCSharp.VirtualMethods;
 using System.Collections.Generic;
@@ -32,15 +33,18 @@ using System.Collections.Generic;
 //Cow cow = new();
 //Console.WriteLine($"Animal Voice Is :");
 //cow.Voice();
-List<OOPInCSharp.Abstract.Animal> animals = new List<OOPInCSharp.Abstract.Animal>();
-OOPInCSharp.Abstract.Animal cat = new OOPInCSharp.Abstract.Cat();
-OOPInCSharp.Abstract.Animal dog = new OOPInCSharp.Abstract.Dog();
-OOPInCSharp.Abstract.Animal cow = new OOPInCSharp.Abstract.Cow();
-animals.Add(cat);
-animals.Add(dog);   
-animals.Add(cow);
+//List<OOPInCSharp.Abstract.Animal> animals = new List<OOPInCSharp.Abstract.Animal>();
+//OOPInCSharp.Abstract.Animal cat = new OOPInCSharp.Abstract.Cat();
+//OOPInCSharp.Abstract.Animal dog = new OOPInCSharp.Abstract.Dog();
+//OOPInCSharp.Abstract.Animal cow = new OOPInCSharp.Abstract.Cow();
+//animals.Add(cat);
+//animals.Add(dog);   
+//animals.Add(cow);
 
-foreach (var animal in animals)
-{
-    animal.Feed();
-}
+//foreach (var animal in animals)
+//{
+//    animal.Feed();
+//}
+
+Mobile mobile = new("Iphone");
+Mobile mobile1 = new();
