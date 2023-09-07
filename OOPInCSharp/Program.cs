@@ -69,4 +69,5 @@ testImplicitInteface.Temp();
 testImplicitInteface.Test();
 
 ITestImplicitInteface2 testImplicitInteface2 = testExplicitIntefaceImplemnet;
+  
 testImplicitInteface2.Temp();
