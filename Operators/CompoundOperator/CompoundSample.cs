@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operators.ConditionalExpression
 {
-    public class Sample
+    public class CompoundSample
     {
         public void Compound()
         {
