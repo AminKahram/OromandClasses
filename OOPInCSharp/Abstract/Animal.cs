@@ -15,7 +15,16 @@ namespace OOPInCSharp.Abstract
 
         public abstract void Feed();
     }
-    public class Cat : Animal
+    public interface  Animal2
+    {
+        public virtual void Voice()
+        {
+            Console.WriteLine("My animal voice");
+        }
+
+        public abstract void Feed();
+    }
+    public class Cat : Animal , Animal2
     {
         public override void Feed()
         {

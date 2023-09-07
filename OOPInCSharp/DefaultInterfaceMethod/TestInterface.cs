@@ -12,7 +12,7 @@ namespace OOPInCSharp.DefaultInterfaceMethod
         void info(string message) 
             => throw new NotImplementedException();
     }
-    public class ImplementTestInterface : TestInterface
+    public class ImplementTestInterface : TestInterface  
     {
         public void Log(string message)
         {
