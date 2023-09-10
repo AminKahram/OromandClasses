@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Operators.CheckedAndUnchecked;
 using Operators.IsAs;
+using Operators.NullOperator;
 using Operators.SizeOf;
 using Operators.TypeOf;
 using System.Linq.Expressions;
@@ -32,8 +33,11 @@ using System.Linq.Expressions;
 //SampleSizeOf sz = new();
 //sz.SizeOf();
 
-SampleTypeOf sample = new();
-sample.TypeOf();
+//SampleTypeOf sample = new();
+//sample.TypeOf();
 
+//Console.WriteLine(nameof(Teacher));
 
+sampleNullOperator sample = new();
+sample.NullOperator02(null);
 Console.ReadLine(); 
