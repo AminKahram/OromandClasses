@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Operators.BinaryOperators;
 using Operators.CheckedAndUnchecked;
 using Operators.IsAs;
 using Operators.NullOperator;
+using Operators.OperatorOverloading;
 using Operators.SizeOf;
 using Operators.TypeOf;
 using System.Linq.Expressions;
@@ -38,6 +40,19 @@ using System.Linq.Expressions;
 
 //Console.WriteLine(nameof(Teacher));
 
-sampleNullOperator sample = new();
-sample.NullOperator02(null);
+//sampleNullOperator sample = new();
+//sample.NullOperator02(null);
+
+//BinaryOperatorSample sample = new();
+//sample.Xor();
+
+money money01 = new money(1000);
+money money02 = new money(2000);
+
+money money = money01.Add(money02);
+money money1 = money01 + money02;
+
+Console.WriteLine(money.Value);
+Console.WriteLine(money1.Value);
+
 Console.ReadLine(); 
