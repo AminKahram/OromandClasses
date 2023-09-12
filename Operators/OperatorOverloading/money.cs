@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operators.OperatorOverloading
 {
-    public class money
+    public class money : IEquatable<money>
     {
         private readonly int value;
         public money(int value)
@@ -18,11 +18,29 @@ namespace Operators.OperatorOverloading
         
         public money Add(money input) 
             => new money(value + input.Value);
+
+        public bool Equals(money? other)
+        {
+           return this == other;
+        }
+        public override bool Equals(object? obj)
+        {
+            return this.Equals(obj as money);
+        }
+        public override int GetHashCode()
+        {
+            return value.GetHashCode();
+        }
         public static money operator + (money right, money left)
             => new money(right.Value + left.Value);
 
         public static money operator - (money right, money left)
             => new money(right.value - left.value);
+
+        public static bool operator ==(money left, money right)
+            => left.Value == right.Value;
+        public static bool operator !=(money left, money right)
+            => !(left == right); 
 
     }
 }

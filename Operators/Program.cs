@@ -46,13 +46,16 @@ using System.Linq.Expressions;
 //BinaryOperatorSample sample = new();
 //sample.Xor();
 
-money money01 = new money(1000);
+money money01 = new money(2000);
 money money02 = new money(2000);
 
-money money = money01.Add(money02);
-money money1 = money01 + money02;
+//money money = money01.Add(money02);
+//money money1 = money01 + money02;
 
-Console.WriteLine(money.Value);
-Console.WriteLine(money1.Value);
+//Console.WriteLine(money.Value);
+//Console.WriteLine(money1.Value);
+
+Console.WriteLine(money01 == money02);
+Console.WriteLine(object.ReferenceEquals(money01, money02));
 
 Console.ReadLine(); 
