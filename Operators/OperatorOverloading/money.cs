@@ -42,5 +42,10 @@ namespace Operators.OperatorOverloading
         public static bool operator !=(money left, money right)
             => !(left == right); 
 
+        public static implicit operator int (money left) => left.Value;
+
+        public static implicit operator money (int left) => new money (left);
+
+        public static explicit operator byte (money value) => (byte) value.Value;
     }
 }

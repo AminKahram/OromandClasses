@@ -69,4 +69,10 @@ Console.WriteLine(wallet[2].Value);
 wallet[2] = new money(50000);
 Console.WriteLine(wallet[2].Value);
 
+wallet[4] = 6000;
+
+int value = wallet[2];
+
+byte moneyValue = (byte)wallet[3];  
+
 Console.ReadLine(); 
