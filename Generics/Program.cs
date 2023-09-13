@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Generics.Constraints;
 using Generics.GenericClass;
+using Generics.GenericMethod;
 using Generics.StaticMembers;
 
 //Console.WriteLine("Hello, World!");
@@ -58,4 +59,6 @@ using Generics.StaticMembers;
 //StaticParam<int>.Counter = 13;
 //Console.WriteLine(StaticParam<int>.Counter);
 
+Simple simple = new();
+simple.Print<string>("This is string terst");
 Console.ReadLine();
