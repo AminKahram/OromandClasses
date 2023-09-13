@@ -47,15 +47,15 @@ using Generics.StaticMembers;
 //carPrinter.Print(new Car { Id = 2});
 
 
-StaticParam<int>.Counter = 12;
-StaticParam<string>.Counter = 15;
-StaticParam<bool>.Counter = 1;
+//StaticParam<int>.Counter = 12;
+//StaticParam<string>.Counter = 15;
+//StaticParam<bool>.Counter = 1;
 
-Console.WriteLine(StaticParam<int>.Counter);
-Console.WriteLine(StaticParam<string>.Counter);
-Console.WriteLine(StaticParam<bool>.Counter);
+//Console.WriteLine(StaticParam<int>.Counter);
+//Console.WriteLine(StaticParam<string>.Counter);
+//Console.WriteLine(StaticParam<bool>.Counter);
 
-StaticParam<int>.Counter = 13;
-Console.WriteLine(StaticParam<int>.Counter);
+//StaticParam<int>.Counter = 13;
+//Console.WriteLine(StaticParam<int>.Counter);
 
 Console.ReadLine();
