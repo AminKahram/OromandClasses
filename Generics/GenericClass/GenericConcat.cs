@@ -6,22 +6,17 @@ using System.Threading.Tasks;
 
 namespace Generics.GenericClass
 {
-    public class GenericConcat<TiInpuut>
+    public class GenericConcat<TiInput>
     {
-        public string Concat(TiInpuut right, TiInpuut left)
+        public string Concat(TiInput right, TiInput left)
         {
+            if (right == null)
+                right = default(TiInput);
+            if (left == null)
+                left = default(TiInput);
             string stringRight = right.ToString(); 
             string stringLeft = left.ToString();
             return stringRight + stringLeft;
-        }
-    }
-    public class Person
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public override string ToString()
-        {
-            return $"{FirstName} {LastName}";
         }
     }
 }
