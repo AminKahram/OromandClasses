@@ -9,7 +9,7 @@ public record PersonRecord
 
 public record PersonRecord2(int Id, string FirstName, string LastName) 
 {
-   public string GetFullName()
+    public string GetFullName()
     {
         return FirstName + " " + LastName;
     }
