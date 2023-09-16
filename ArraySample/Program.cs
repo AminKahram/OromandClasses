@@ -2,6 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 using ArraySample.ArrayClass;
+using ArraySample.ArrayPoolSample;
 using ArraySample.Enumerators;
 using ArraySample.HatAndRange;
 using ArraySample.JaggedArray;
@@ -73,9 +74,12 @@ using ArraySample.MultiDimentioanlArray;
 //EnumeratorSample sample = new();
 //sample.TestEnumeration();
 
-HatAndRangeSample sample = new();
+//HatAndRangeSample sample = new();
 //sample.TestHat();
 //sample.TestRange();
-sample.TestRangeAndHat();
+//sample.TestRangeAndHat();
+
+ArrayPoolSample sample = new();
+sample.ArrayPoolTest();
 
 Console.ReadLine();
