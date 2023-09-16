@@ -1,6 +1,6 @@
 ﻿namespace Generics.Constraints
 {
-    public class PersonPrinter<Tinput> where Tinput : Person , new()
+    public class PersonPrinter<Tinput> where Tinput : Person , new() 
     {
         public void Print(Tinput input)
         {

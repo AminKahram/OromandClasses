@@ -19,9 +19,9 @@ namespace CSharpTypes.Tuples
             return (1, 2); 
         }
          
-        public void  CallDirection()
+        public void CallDirection()
         {
-            (int  x, int y) = Direction();
+            (int x, int y) = Direction();
             Console.WriteLine(x);
             Console.WriteLine(y);
         }
