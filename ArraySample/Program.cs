@@ -8,6 +8,7 @@ using ArraySample.Enumerators;
 using ArraySample.HatAndRange;
 using ArraySample.JaggedArray;
 using ArraySample.MultiDimentioanlArray;
+using System;
 
 //TwoDimentional twoDimentional = new();
 
@@ -83,7 +84,8 @@ using ArraySample.MultiDimentioanlArray;
 //ArrayPoolSample sample = new();
 //sample.ArrayPoolTest();
 
-BitArraySample sample = new();
-sample.TestBitArray();
+//BitArraySample sample = new();
+//sample.TestBitArray();
+
 
 Console.ReadLine();
