@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Delegates.AnnonymousMethod;
 using Delegates.DelegateSample;
 using Delegates.Func_Action;
 using Delegates.Multicast_Delegate;
@@ -29,9 +30,12 @@ using Delegates.Multicast_Delegate;
 //PersonPrintFunc printFunc = new();
 //printFunc.Print(PesronFullNameReverse.GetPersonFullName, person);
 
-TestMulticastDelegates testMulticastDelegates = new TestMulticastDelegates();
-//testMulticastDelegates.TestMulti();
+//TestMulticastDelegates testMulticastDelegates = new TestMulticastDelegates();
+////testMulticastDelegates.TestMulti();
 
-testMulticastDelegates.TestMultiWithOutput();
+//testMulticastDelegates.TestMultiWithOutput();
 
-testMulticastDelegates.TestMultiExceptionHandel();
+//testMulticastDelegates.TestMultiExceptionHandel();
+
+AnonymousMethodSample sample = new();
+sample.AnnonymousMethod();
