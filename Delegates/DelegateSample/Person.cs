@@ -15,12 +15,21 @@ namespace Delegates.DelegateSample
     }
     public class PesronFullName
     {
+        
         public static string GetPersonFullName(Person person)
-            => $"{person.FirstName} {person.LastName}";
+        {
+            Console.WriteLine("PesronFullName executed");
+           return $"{person.FirstName} {person.LastName}";
+        }
+            
     }
     public class PesronFullNameReverse
     {
         public static string GetPersonFullName(Person person)
-            => $"{person.LastName} {person.FirstName}";
+        {
+            Console.WriteLine("PesronFullNameReverse executed");
+            return $"{person.LastName} {person.FirstName}";
+        }
+        
     }
 }

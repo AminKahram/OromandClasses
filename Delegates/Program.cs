@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Delegates.DelegateSample;
 using Delegates.Func_Action;
+using Delegates.Multicast_Delegate;
 
 //Console.WriteLine("Hello, World!");
 
@@ -17,13 +18,20 @@ using Delegates.Func_Action;
 //var result = Pts.Invoke(person);
 //Console.WriteLine(result); 
 
-Func<int, int, int, string> func = FuncSample.MyIntTostring;
-Console.WriteLine(func(1, 2, 3));
+//Func<int, int, int, string> func = FuncSample.MyIntTostring;
+//Console.WriteLine(func(1, 2, 3));
 
-Person person = new Person
-{
-    FirstName = "Abbas",
-    LastName = "Abbasi"
-};
-PersonPrintFunc printFunc = new();
-printFunc.Print(PesronFullNameReverse.GetPersonFullName, person);
+//Person person = new Person
+//{
+//    FirstName = "Abbas",
+//    LastName = "Abbasi"
+//};
+//PersonPrintFunc printFunc = new();
+//printFunc.Print(PesronFullNameReverse.GetPersonFullName, person);
+
+TestMulticastDelegates testMulticastDelegates = new TestMulticastDelegates();
+//testMulticastDelegates.TestMulti();
+
+testMulticastDelegates.TestMultiWithOutput();
+
+testMulticastDelegates.TestMultiExceptionHandel();
