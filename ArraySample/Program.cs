@@ -3,6 +3,7 @@
 
 using ArraySample.ArrayClass;
 using ArraySample.ArrayPoolSample;
+using ArraySample.BitArraySamples;
 using ArraySample.Enumerators;
 using ArraySample.HatAndRange;
 using ArraySample.JaggedArray;
@@ -79,7 +80,10 @@ using ArraySample.MultiDimentioanlArray;
 //sample.TestRange();
 //sample.TestRangeAndHat();
 
-ArrayPoolSample sample = new();
-sample.ArrayPoolTest();
+//ArrayPoolSample sample = new();
+//sample.ArrayPoolTest();
+
+BitArraySample sample = new();
+sample.TestBitArray();
 
 Console.ReadLine();
