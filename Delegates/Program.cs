@@ -2,6 +2,7 @@
 using Delegates.AnnonymousMethod;
 using Delegates.DelegateSample;
 using Delegates.Func_Action;
+using Delegates.LambdaExpression;
 using Delegates.Multicast_Delegate;
 
 //Console.WriteLine("Hello, World!");
@@ -37,5 +38,9 @@ using Delegates.Multicast_Delegate;
 
 //testMulticastDelegates.TestMultiExceptionHandel();
 
-AnonymousMethodSample sample = new();
-sample.AnnonymousMethod();
+//AnonymousMethodSample sample = new();
+//sample.AnnonymousMethod();
+
+LambdaExprerssionSample sample = new LambdaExprerssionSample();
+sample.WithoutLambdaTest();
+sample.LambdaTest();
