@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Delegates.AnnonymousMethod;
+using Delegates.ClosureSample;
 using Delegates.DelegateSample;
 using Delegates.Func_Action;
 using Delegates.LambdaExpression;
@@ -41,6 +42,9 @@ using Delegates.Multicast_Delegate;
 //AnonymousMethodSample sample = new();
 //sample.AnnonymousMethod();
 
-LambdaExprerssionSample sample = new LambdaExprerssionSample();
-sample.WithoutLambdaTest();
-sample.LambdaTest();
+//LambdaExprerssionSample sample = new LambdaExprerssionSample();
+//sample.WithoutLambdaTest();
+//sample.LambdaTest();
+
+ClosureTestSample sample = new();
+sample.TestClosure();
