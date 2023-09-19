@@ -42,7 +42,7 @@ namespace Delegates.EventSample
             Console.WriteLine($"Old name is {args.OldName} and new name is {args.NewName}");
         }
     }
-
+     
     public class TeacherChangeNameLogger2
     {
         public void Log(object sender, TeacherNameChangeArgs args)
