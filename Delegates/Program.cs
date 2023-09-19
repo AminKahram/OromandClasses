@@ -2,6 +2,7 @@
 using Delegates.AnnonymousMethod;
 using Delegates.ClosureSample;
 using Delegates.DelegateSample;
+using Delegates.EventSample;
 using Delegates.Func_Action;
 using Delegates.LambdaExpression;
 using Delegates.Multicast_Delegate;
@@ -46,5 +47,15 @@ using Delegates.Multicast_Delegate;
 //sample.WithoutLambdaTest();
 //sample.LambdaTest();
 
-ClosureTestSample sample = new();
-sample.TestClosure();
+//ClosureTestSample sample = new();
+//sample.TestClosure();
+
+Teacher teacher = new("Abbas","Abbasi");
+
+TeacherChangeNameLogger logger = new();
+TeacherChangeNameLogger2 logger2 = new();
+
+teacher.TeacherChanged += logger.Log;
+teacher.TeacherChanged += logger2.Log;
+
+teacher.SetName("Gholam");
