@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CollectionSample.ImmutableCollectionSamples;
 using CollectionSample.ListSamples;
 using CollectionSample.QueueSample;
 using CollectionSample.SetSamples;
@@ -101,4 +102,9 @@ using CollectionSample.StackSamples;
 //----------------------------------------------------------------------------
 
 
-SetSample.Start();
+//SetSample.Start();
+
+//----------------------------------------------------------------------------
+
+
+ImmutableCollectionSample.start();
