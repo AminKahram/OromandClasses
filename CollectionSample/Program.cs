@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CollectionSample.ListSamples;
 using CollectionSample.QueueSample;
+using CollectionSample.StackSamples;
 
 //Console.WriteLine("Hello, World!");
 //ListSample sample = new ListSample() ;
@@ -83,8 +84,11 @@ using CollectionSample.QueueSample;
 //----------------------------------------------------------------------------
 
 
-PriorityQueueSample priorityQueueSample = new PriorityQueueSample();
-priorityQueueSample.AddWithSamePriority();
-priorityQueueSample.AddWithDiffrentPriority();
+//PriorityQueueSample priorityQueueSample = new PriorityQueueSample();
+//priorityQueueSample.AddWithSamePriority();
+//priorityQueueSample.AddWithDiffrentPriority();
 
+//----------------------------------------------------------------------------
+
+SatckSample.Start();
 
