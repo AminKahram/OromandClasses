@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CollectionSample.ListSamples;
 using CollectionSample.QueueSample;
+using CollectionSample.SetSamples;
 using CollectionSample.SortedListSamples;
 using CollectionSample.StackSamples;
 
@@ -95,6 +96,9 @@ using CollectionSample.StackSamples;
 
 //----------------------------------------------------------------------------
 
-SortedListSample.Start();
+//SortedListSample.Start();
+
+//----------------------------------------------------------------------------
 
 
+SetSample.Start();

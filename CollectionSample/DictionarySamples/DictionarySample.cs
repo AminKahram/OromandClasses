@@ -9,6 +9,7 @@ namespace CollectionSample.DictionarySamples
     public class DictionarySample
     {
         Dictionary<string, string> dictionary = new Dictionary<string, string>();
+        SortedDictionary<string,string> sortedDictionary = new SortedDictionary<string,string>();
         public void Add(string key, string value)
         { 
             if (!dictionary.ContainsKey(key))
