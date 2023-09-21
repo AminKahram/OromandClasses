@@ -17,11 +17,24 @@ namespace ExceptionHandeling.UserDefinedException
 
                 calculator.Add(0, 3);
             }
-            catch (Exception ex)
+            catch(ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (InvalidOperationException ex) when (DateTime.Now.Hour == 1)
             {
                 Console.WriteLine(ex.ToString());
-                CustomeExceptionSample exceptionSample = new();
+
+            }
+            catch (Exception ex) when (ex.InnerException != null) 
+            {
+                Console.WriteLine(ex.ToString());
+                CustomeExceptionSample exceptionSample = new CustomeExceptionSample("My exception", ex);
                 throw exceptionSample;
+            }
+            finally
+            {
+                Console.WriteLine("finally called");
             }
 
         }
