@@ -73,5 +73,40 @@ namespace LINQSamples.Join
 
         }
 
+        public static void LeftJoin()
+        {
+            var students = Student.GetStudents();
+            var course = getStudentCourse();
+
+            var groupJoin = students
+                            .GroupJoin(course,
+                            s => s.Id,
+                            c => c.StudentId,
+                            (s, c) =>
+                            new
+                            {
+                                s.Id,
+                                s.FirstName,
+                                s.LastName,
+                                studentCourses = c ?? new List<StudentCourse>()
+                            }).SelectMany(c => 
+                                          c.studentCourses.DefaultIfEmpty(),
+                                          (s, c) =>
+                                          {
+                                              return new
+                                              {
+                                                  s.Id,
+                                                  s.FirstName,
+                                                  s.LastName,
+                                                  course = c?.Name ?? "---"
+                                              };
+                                          }).ToList();
+            foreach (var item in groupJoin)
+            {
+                Console.WriteLine($"{item.Id} {item.FirstName} {item.LastName} {item.course} ");
+            }
+
+        }
+
     }
 }
