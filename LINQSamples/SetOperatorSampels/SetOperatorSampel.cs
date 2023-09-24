@@ -152,5 +152,26 @@ namespace LINQSampels.SetOperatorSampels
             }
 
         }
+
+        public static void Zip()
+        {
+            List<int> list = new List<int> { 1, 2, 3, 4, 5, 4, 5, 1, 3, 7 };
+            List<int> list2 = new List<int> { 1, 8, 9, 10 };
+            List<int> list3 = new List<int> { 11, 12, 13 };
+
+            var result = list.Zip(list2 , list3);
+        }
+
+        public void Pagination(int pageIndex,int pageCount)
+        {
+            List<int> list = new List<int> { 1, 2, 3, 4, 5, 4, 5, 1, 3, 7, 11, 12, 13 };
+            var result = list.Skip(pageCount * pageIndex).Take(pageCount).ToList();
+        }
+
+        public void Chunk(int ChunkSize)
+        {
+            List<int> list = new List<int> { 1, 2, 3, 4, 5, 4, 5, 1, 3, 7, 11, 12, 13 };
+            var result = list.Chunk(ChunkSize);
+        }
     }
-}
+} 
