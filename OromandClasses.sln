@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandeling", "Excep
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class12", "Class12", "{17674C40-B765-4ECE-B7A9-3454AB15CF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQSamples", "LINQSamples\LINQSamples.csproj", "{46830AD6-EC3A-48B1-A7D4-4AFF7CA07526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQSampels", "LINQSamples\LINQSampels.csproj", "{46830AD6-EC3A-48B1-A7D4-4AFF7CA07526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

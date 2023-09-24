@@ -1,11 +1,11 @@
-﻿using LINQSamples.Filter;
+﻿using LINQSampels.Filter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQSamples.Grouping
+namespace LINQSampels.Grouping
 {
     public class GroupingSample
     {

@@ -1,4 +1,4 @@
-﻿using LINQSamples.LinqOperators;
+﻿using LINQSampels.LinqOperators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQSamples.Filter
+namespace LINQSampels.Filter
 {
     public class Student
     {

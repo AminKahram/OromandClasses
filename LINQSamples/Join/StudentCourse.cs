@@ -1,11 +1,11 @@
-﻿using LINQSamples.Filter;
+﻿using LINQSampels.Filter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQSamples.Join
+namespace LINQSampels.Join
 {
     public class StudentCourse
     {

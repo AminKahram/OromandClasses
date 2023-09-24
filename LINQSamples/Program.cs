@@ -1,13 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
-//using LINQSamples.LinqOperators;
+//using LINQSampels.LinqOperators;
 
 //LinqOperatorsSampel.Satrt();
 
 //-----------------------------------------
 
-//using LINQSamples.Filter;
+//using LINQSampels.Filter;
 
 //Student student = new Student();
 //student.FilterStudentsQuery();
@@ -19,7 +19,7 @@
 //----------------------------------------------
 
 
-//using LINQSamples.Sorting;
+//using LINQSampels.Sorting;
 
 //SortingSampel.SortStudents();
 
@@ -27,15 +27,31 @@
 
 //---------------------------------------------------
 
-//using LINQSamples.Grouping;
+//using LINQSampels.Grouping;
 
 //GroupingSample.GropupStudents();
 
 //---------------------------------------------------
 
-using LINQSamples.Join;
+//using LINQSampels.Join;
 
 //StudentCourse.InnerJoin();
 //StudentCourse.GroupJoin();
 
-StudentCourse.LeftJoin();
+//StudentCourse.LeftJoin();
+
+// ----------------------------------------------------
+
+using LINQSampels.SetOperatorSampels;
+
+//SetOperatorSampel.Distinct();
+//SetOperatorSampel.Union();
+//SetOperatorSampel.Except();
+//SetOperatorSampel.Intersect();
+
+//SetOperatorSampel.UnionBY();
+//SetOperatorSampel.DistinctBY();
+
+//SetOperatorSampel.IntersectBY();
+SetOperatorSampel.ExceptBY();
+
