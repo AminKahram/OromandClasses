@@ -27,7 +27,7 @@ namespace LINQSamples.Join
         public static void InnerJoin()
         {
             var students = Student.GetStudents();
-            var course = StudentCourse.getStudentCourse();
+            var course = getStudentCourse();
 
             var result = students
                         .Join(course,
@@ -47,6 +47,30 @@ namespace LINQSamples.Join
             {
                  Console.WriteLine($"{item.StudentId} {item.FirstName} {item.LastName} {item.Name} {item.Score}");
             }
+        }
+
+        public static void GroupJoin()
+        {
+            var students = Student.GetStudents();
+            var course = getStudentCourse();
+
+            var groupJoin = students
+                            .GroupJoin(course,
+                            s => s.Id,
+                            c => c.StudentId,
+                            (s, c) =>
+                            new
+                            {
+                                s.Id,
+                                s.FirstName,
+                                s.LastName,
+                                studentCourses = c ?? new List<StudentCourse>()
+                            }).ToList();
+            foreach (var item in groupJoin)
+            {
+                 Console.WriteLine($"{item.Id} {item.FirstName} {item.LastName} {item.studentCourses?.Count()} ");
+            }
+
         }
 
     }

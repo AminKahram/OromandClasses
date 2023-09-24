@@ -35,4 +35,5 @@
 
 using LINQSamples.Join;
 
-StudentCourse.InnerJoin();
+//StudentCourse.InnerJoin();
+StudentCourse.GroupJoin();
