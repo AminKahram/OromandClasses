@@ -27,6 +27,12 @@
 
 //---------------------------------------------------
 
-using LINQSamples.Grouping;
+//using LINQSamples.Grouping;
 
-GroupingSample.GropupStudents();
+//GroupingSample.GropupStudents();
+
+//---------------------------------------------------
+
+using LINQSamples.Join;
+
+StudentCourse.InnerJoin();
