@@ -19,8 +19,14 @@
 //----------------------------------------------
 
 
-using LINQSamples.Sorting;
+//using LINQSamples.Sorting;
 
-SortingSampel.SortStudents();
+//SortingSampel.SortStudents();
 
-SortingSampel.SortDescStudents();
+//SortingSampel.SortDescStudents();
+
+//---------------------------------------------------
+
+using LINQSamples.Grouping;
+
+GroupingSample.GropupStudents();

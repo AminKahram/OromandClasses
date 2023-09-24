@@ -28,13 +28,16 @@ namespace LINQSamples.Filter
         public static List<Student> GetStudents()
             => new List<Student>
             { 
-                new Student {Id = 1, FirstName = "Abbas", LastName = "Abbasi", Grade = 20},   
+                new Student {Id = 10, FirstName = "Anghezi", LastName = "Abbasi", Grade = 20},   
+                new Student {Id = 1, FirstName = "Abbas", LastName = "Abbasi", Grade = 20},
                 new Student {Id = 2, FirstName = "AliReza", LastName = "Nori", Grade = 18},   
                 new Student {Id = 3, FirstName = "Mohammad", LastName = "Gholizade", Grade = 7},   
-                new Student {Id = 4, FirstName = "Farid", LastName = "Janati", Grade = 14},   
+                new Student {Id = 8, FirstName = "vahid", LastName = "Janati", Grade = 14},   
+                new Student {Id = 4, FirstName = "Farid", LastName = "Janati", Grade = 14},
                 new Student {Id = 5, FirstName = "Gholi", LastName = "Rohani", Grade = 16},   
                 new Student {Id = 6, FirstName = "Azhdar", LastName = "Beukian", Grade = 19},   
                 new Student {Id = 7, FirstName = "Navid", LastName = "Hatami", Grade = 15},
+                new Student {Id = 9, FirstName = "Taher", LastName = "Hatami", Grade = 15},
             }; 
 
         public void FilterStudentsQuery()
