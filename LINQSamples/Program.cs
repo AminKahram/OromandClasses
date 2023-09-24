@@ -7,11 +7,20 @@
 
 //-----------------------------------------
 
-using LINQSamples.Filter;
+//using LINQSamples.Filter;
 
-Student student = new Student();
-student.FilterStudentsQuery();
+//Student student = new Student();
+//student.FilterStudentsQuery();
 
-student.FilterStudentsMethod();
+//student.FilterStudentsMethod();
 
-student.FilterByType();
+//student.FilterByType();
+
+//----------------------------------------------
+
+
+using LINQSamples.Sorting;
+
+SortingSampel.SortStudents();
+
+SortingSampel.SortDescStudents();
