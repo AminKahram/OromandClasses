@@ -1,21 +1,13 @@
-﻿using ConcurrencyAndAsynchrony.Create_StartThread;
+﻿using ConcurrencyAndAsynchrony.CreateAndStartThread;
+using ConcurrencyAndAsynchrony.JoinAndSleep;
 
-CharPrinter charPrinter = new CharPrinter();
+//CharPrinter.Start();
 
-Thread dashPrinterWorker = new Thread(charPrinter.PrintDash);
-dashPrinterWorker.Name = "Abbas";
+//----------------------------------------------------
 
-Console.WriteLine($"{dashPrinterWorker.Name} is alive before start {dashPrinterWorker.IsAlive}");
+//JoinAndSleepSample.Start();
 
-dashPrinterWorker.Start();
-Console.WriteLine($"{dashPrinterWorker.Name} is alive after start {dashPrinterWorker.IsAlive}");
+JoinAndSleepSample joinAndSleepSample = new();
+//joinAndSleepSample.JoinTest();
+joinAndSleepSample.SleepTest();
 
-charPrinter.PrintStar();
-
-Console.WriteLine($"{dashPrinterWorker.Name} is alive after print star start {dashPrinterWorker.IsAlive}");
-
-Console.ReadLine();
-
-Console.WriteLine($"{dashPrinterWorker.Name} is alive after print star start {dashPrinterWorker.IsAlive}");
-
-Console.ReadLine();
