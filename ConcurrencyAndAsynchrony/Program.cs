@@ -1,5 +1,7 @@
-﻿using ConcurrencyAndAsynchrony.CreateAndStartThread;
+﻿using ConcurrencyAndAsynchrony.Blocking;
+using ConcurrencyAndAsynchrony.CreateAndStartThread;
 using ConcurrencyAndAsynchrony.JoinAndSleep;
+using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //CharPrinter.Start();
 
@@ -7,7 +9,16 @@ using ConcurrencyAndAsynchrony.JoinAndSleep;
 
 //JoinAndSleepSample.Start();
 
-JoinAndSleepSample joinAndSleepSample = new();
+//JoinAndSleepSample joinAndSleepSample = new();
 //joinAndSleepSample.JoinTest();
-joinAndSleepSample.SleepTest();
+//joinAndSleepSample.SleepTest();
 
+//----------------------------------------------------
+
+//BlockingSample blockingSample = new();
+//blockingSample.ThreadStateCheck();
+
+//----------------------------------------------------
+
+SharedAndLocalStateSample sharedAndLocalStateSample = new();
+sharedAndLocalStateSample.start();

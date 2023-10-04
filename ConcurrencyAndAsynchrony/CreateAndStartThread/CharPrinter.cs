@@ -35,8 +35,9 @@ namespace ConcurrencyAndAsynchrony.CreateAndStartThread
             for(int i = 0; i < 1000; i++)
             {
                 Console.Write("*");
+                Thread.Yield();
+
             }
-            Thread.Yield();
 
         }
 
@@ -45,8 +46,9 @@ namespace ConcurrencyAndAsynchrony.CreateAndStartThread
             for (int i = 0; i < 1000; i++)
             {
                 Console.Write("-");
+                Thread.Sleep(TimeSpan.FromSeconds(10));
+
             }
-            Thread.Sleep(0);
 
         }
     }
