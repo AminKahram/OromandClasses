@@ -1,5 +1,6 @@
 ﻿using ConcurrencyAndAsynchrony.Blocking;
 using ConcurrencyAndAsynchrony.CreateAndStartThread;
+using ConcurrencyAndAsynchrony.ExceptionHandeling;
 using ConcurrencyAndAsynchrony.JoinAndSleep;
 using ConcurrencyAndAsynchrony.Locking;
 using ConcurrencyAndAsynchrony.PassingDatatoAThread;
@@ -31,5 +32,9 @@ using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //----------------------------------------------------
 
-PassDataSample passDataSample = new PassDataSample();
-passDataSample.Start();
+//PassDataSample passDataSample = new PassDataSample();
+//passDataSample.Start();
+
+//----------------------------------------------------
+
+ExceptionInThreads.Start();
