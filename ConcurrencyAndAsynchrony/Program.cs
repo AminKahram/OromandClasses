@@ -2,6 +2,7 @@
 using ConcurrencyAndAsynchrony.CreateAndStartThread;
 using ConcurrencyAndAsynchrony.JoinAndSleep;
 using ConcurrencyAndAsynchrony.Locking;
+using ConcurrencyAndAsynchrony.PassingDatatoAThread;
 using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //CharPrinter.Start();
@@ -26,4 +27,9 @@ using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //----------------------------------------------------
 
-LockingSample.Start();
+//LockingSample.Start();
+
+//----------------------------------------------------
+
+PassDataSample passDataSample = new PassDataSample();
+passDataSample.Start();
