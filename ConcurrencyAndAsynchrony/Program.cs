@@ -1,6 +1,7 @@
 ﻿using ConcurrencyAndAsynchrony.Blocking;
 using ConcurrencyAndAsynchrony.CreateAndStartThread;
 using ConcurrencyAndAsynchrony.JoinAndSleep;
+using ConcurrencyAndAsynchrony.Locking;
 using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //CharPrinter.Start();
@@ -20,5 +21,9 @@ using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //----------------------------------------------------
 
-SharedAndLocalStateSample sharedAndLocalStateSample = new();
-sharedAndLocalStateSample.start();
+//SharedAndLocalStateSample sharedAndLocalStateSample = new();
+//sharedAndLocalStateSample.start();
+
+//----------------------------------------------------
+
+LockingSample.Start();
