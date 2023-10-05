@@ -1,6 +1,7 @@
 ﻿using ConcurrencyAndAsynchrony.Blocking;
 using ConcurrencyAndAsynchrony.CreateAndStartThread;
 using ConcurrencyAndAsynchrony.ExceptionHandeling;
+using ConcurrencyAndAsynchrony.ForegroundAndBackgroundThread;
 using ConcurrencyAndAsynchrony.JoinAndSleep;
 using ConcurrencyAndAsynchrony.Locking;
 using ConcurrencyAndAsynchrony.PassingDatatoAThread;
@@ -37,4 +38,8 @@ using ConcurrencyAndAsynchrony.SharedAndLocalState;
 
 //----------------------------------------------------
 
-ExceptionInThreads.Start();
+//ExceptionInThreads.Start();
+
+//----------------------------------------------------
+
+ForegroundBackgroundThreadSample.Start();
