@@ -6,6 +6,7 @@ using ConcurrencyAndAsynchrony.JoinAndSleep;
 using ConcurrencyAndAsynchrony.Locking;
 using ConcurrencyAndAsynchrony.PassingDatatoAThread;
 using ConcurrencyAndAsynchrony.SharedAndLocalState;
+using ConcurrencyAndAsynchrony.ThreadPool;
 using ConcurrencyAndAsynchrony.ThreadPriority;
 
 //CharPrinter.Start();
@@ -47,4 +48,8 @@ using ConcurrencyAndAsynchrony.ThreadPriority;
 
 //----------------------------------------------------
 
-ThreadPrioritySample.Start();
+//ThreadPrioritySample.Start();
+
+//----------------------------------------------------
+
+ThreadPoolsample.Start();
